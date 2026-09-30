@@ -13,6 +13,7 @@ should be calulated from the subtotal
 4. quantity must be greater than 0
 5. price must not be negative
 6. function should return the final order total
+this is for testing github only
 """
 
 
