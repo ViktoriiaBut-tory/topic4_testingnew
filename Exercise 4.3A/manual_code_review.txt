@@ -1,33 +1,36 @@
-# Quality Review Evidence
+BASELINE OUTPUT
+Customer: Aisha
+Price: 30
+Quantity: 2
+Subtotal: 60
+Discount: 0
+Member discount: 0
+Final total: 60
+Order status: Small
+Customer: Aisha
+Final total: 60
 
-# Initial test:
-# I ran the program with three test cases.
-# The program worked correctly.
+Customer: Ben
+Price: 60
+Quantity: 2
+Subtotal: 120
+Discount: 12.0
+Member discount: 6.0
+Final total: 102.0
+Order status: Standard
+Customer: Ben
+Final total: 102.0
 
-# Ruff:
-# I checked the code using Ruff.
-# All checks passed.
+Customer: Chloe
+Price: 50
+Quantity: 3
+Subtotal: 150
+Discount: 15.0
+Member discount: 0
+Final total: 135.0
+Order status: Standard
+Customer: Chloe
+Final total: 135.0
 
-# Black:
-# I checked the formatting using Black.
-# The file was left unchanged.
 
-# Pylint:
-# The first Pylint score was 8.46/10.
-# It found two long lines and two missing docstrings.
-
-# Refactoring:
-# I added a module docstring.
-# I added a function docstring.
-# I changed "if member == True" to "if member:".
-# This improved readability without changing behaviour.
-
-# Retest:
-# I ran Pylint again after the changes.
-# The new score was 9.23/10.
-# The missing docstring warnings were fixed.
-# Two long-line warnings remained.
-
-# What I learned:
-# Quality tools can find different types of issues.
-# Refactoring can improve code without changing behaviour.
+1 Add  docstring to function 
